@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "PexPage",
+    "short_name": "PexPage",
+    "version": "0.0.1-beta",
+    "description": "A better new tab or home page works without any permissions required.",
+    "chrome_settings_overrides": {
+      "homepage": "index.html"
+    },
+    "chrome_url_overrides": {
+      "newtab": "index.html"
+    },
+    "icons": {
+      "32": "./res/icon/32.png",
+      "48": "./res/icon/48.png",
+      "96": "./res/icon/96.png",
+      "128": "./res/icon/128.png"
+    },
+    "permissions": ["storage"]
+}
