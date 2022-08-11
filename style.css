@@ -42,7 +42,7 @@
 }
 
 body {
-    background: var(--primary-dark-bg) url("./res/dwall.png") fixed center;
+    background: var(--primary-dark-bg) url("./res/dwall.webp") fixed center;
     color: var(--primary-light-bg);
     font-family: 'Roboto', sans-serif;
     gap: 20px;
