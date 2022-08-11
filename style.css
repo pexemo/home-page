@@ -158,17 +158,17 @@ a.shortcut:hover {
 /*//////////////////////*/
 /*  set shortcuts form  */
 /*//////////////////////*/
-
 #set-shortcut {
     position: absolute;
     right: 50%;
     bottom: 50%;
     background-color: var(--primary-dark-bg);
     transform: translate(50%, 50%);
-    box-shadow: 0 0 50px 100px var(--primary-dark-bg);
     gap: 10px;
     width: 600px;
     flex-direction: column;
+    padding: 50px;
+    border: 1px solid var(--primary-accent);
 }
 #set-shortcut.shown {
     opacity: 100%;
